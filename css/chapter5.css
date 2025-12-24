@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.modal-header {
+    background: #f3be00;
+}
+
+@keyframes textGlow {
+
+    0%,
+    100% {
+        text-shadow: 0 0 5px #ffa200;
+    }
+
+    50% {
+        text-shadow: 0 0 15px #f2a100, 0 0 20px #dc5800;
+    }
+}
+
+.modal-title {
+    animation: textGlow 2s ease-in-out infinite;
+    color: #fff;
+}
+
+.modal-content {
+    border-color: #a57100;
+}
+
+.modal-body {
+    background-color: #c89d00;
+}
+
+.wizard-speech {
+    background: rgba(255, 162, 0, 0.3);
+    border: 2px solid #ffd700;
+}
+
+.wizard-portrait {
+    background: rgba(255, 162, 0, 0.3);
+}
